@@ -1,0 +1,116 @@
+Portfólio HTML e CSS para Julia Alfredo
+HTML:
+
+HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Julia Alfredo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+.projeto {
+    margin-bottom: 20px;
+}
+
+.projeto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Portfólio</h1>
+        <h2>Julia Alfredo</h2>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Conte um pouco sobre você, seus hobbies, interesses e objetivos profissionais.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Habilidade 1</li>
+                <li>Habilidade 2</li>
+                <li>Habilidade 3</li>
+                </ul>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projeto">
+                <h3>Nome do Projeto</h3>
+                <img src="imagem-projeto.jpg" alt="Descrição do projeto">
+                <p>Descrição do projeto, incluindo as tecnologias utilizadas e o que você aprendeu com ele.</p>
+                <a href="#">Link para o projeto</a>
+            </div>
+            </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Forneça seus dados de contato, como email, telefone e links para redes sociais.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Julia Alfredo</p>
+    </footer>
+</body>
+</html>
